@@ -1,16 +1,20 @@
-Nápovìda:
+O projektu:
+MindMaps je program na tvorbu myÅ¡lenkovÃ½ch map.
 
-Vytvoøení uzlu 
-	- kliknutí pravým tlaèítkem do kreslícího panelu
 
-Vytvoøení vazby rodièe a potomka 
-	- oznaèení rodièe levým tlaèítkem a následné vytvoøení jeho potomka obvyklým zpùsobem (vý¹e)
+NÃ¡povÄ›da:
+
+VytvoÅ™enÃ­ uzlu 
+	- kliknutÃ­ pravÃ½m tlaÄÃ­tkem do kreslÃ­cÃ­ho panelu
+
+VytvoÅ™enÃ­ vazby rodiÄe a potomka 
+	- oznaÄenÃ­ rodiÄe levÃ½m tlaÄÃ­tkem a nÃ¡slednÃ© vytvoÅ™enÃ­ jeho potomka obvyklÃ½m zpÅ¯sobem (vÃ½Å¡e)
 
 Editace uzlu
-	- oznaèení uzlu levým tlaèítkem a kliknutí pravým tlaèítkem do uzlu pro vyvolání editovacího dialogu
-	- (nebo) oznaèení uzlu a CTRL+E
-	- (nebo) oznaèení uzlu a Menu->Edit->Edit
+	- oznaÄenÃ­ uzlu levÃ½m tlaÄÃ­tkem a kliknutÃ­ pravÃ½m tlaÄÃ­tkem do uzlu pro vyvolÃ¡nÃ­ editovacÃ­ho dialogu
+	- (nebo) oznaÄenÃ­ uzlu a CTRL+E
+	- (nebo) oznaÄenÃ­ uzlu a Menu->Edit->Edit
 
-Odstranìní uzlu
-	- oznaèení uzlu a DELETE
-	- (nebo) oznaèení uzlu a Menu->Edit->Delete
+OdstranÄ›nÃ­ uzlu
+	- oznaÄenÃ­ uzlu a DELETE
+	- (nebo) oznaÄenÃ­ uzlu a Menu->Edit->Delete
