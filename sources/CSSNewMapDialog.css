@@ -1,0 +1,51 @@
+.root{
+    -fx-background-color: #849db0;
+	-fx-opacity: 0.8;
+}
+#label {
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 12pt;
+	-fx-fill: white;
+	-fx-stroke-width: 0.1;
+	-fx-stroke: #158cc6;
+}
+#shape {
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 11pt;
+	-fx-fill: white;
+}
+#color {
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 11pt;
+	-fx-fill: white;
+}
+#name {
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 11pt;
+	-fx-fill: white;
+}
+#note {
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 11pt;
+	-fx-fill: white;
+}
+#textColor {
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-font-size: 11pt;
+	-fx-fill: white;
+}
+
+#blackChoice .box{
+	-fx-background-color: black;
+}
+#blackChoice:selected .mark{
+	-fx-background-color: white;
+}
+
+
+#whiteChoice .box{
+	-fx-background-color: white;
+}
+#whiteChoice:selected .mark{
+	-fx-background-color: black;
+}

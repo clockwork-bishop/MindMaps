@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="mindmaps.MindNodeDialogController" 
+		  alignment="CENTER" hgap="20" vgap="20">
+	
+	<Text fx:id="shape" text="Shape" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+	<ChoiceBox fx:id="choiceShape" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+	
+	<Text fx:id="color" text="Color" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+	<ColorPicker fx:id="colorPicker" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+	
+	<Text fx:id="textColor" text="Text color" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+	<HBox spacing="10" GridPane.rowIndex="2" GridPane.columnIndex="1" >
+		<CheckBox fx:id="blackChoice" onAction="#tickBlack"/>
+		<CheckBox fx:id="whiteChoice" onAction="#tickWhite"/>
+	</HBox>
+
+	
+	<Text fx:id="name" text="Name" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+	<TextField fx:id="nameTextField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+	
+	<Text fx:id="note" text="Note" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+	<TextArea fx:id="noteTextArea" prefWidth="100" prefHeight="50" GridPane.rowIndex="4" GridPane.columnIndex="1" GridPane.rowSpan="2" wrapText="true"/>
+	
+	<HBox spacing="10" alignment="CENTER_RIGHT" GridPane.rowIndex="6" GridPane.columnIndex="0" GridPane.columnSpan="2">
+		<Button text="OK" onAction="#okAction" defaultButton="true"/>
+		<Button text="Cancel" onAction="#cancelAction" cancelButton="true"/>
+	</HBox>
+</GridPane>
